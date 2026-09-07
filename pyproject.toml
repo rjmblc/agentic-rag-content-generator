@@ -1,0 +1,21 @@
+[project]
+name = "agentic-rag-content-generator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.43.88",
+    "faiss-cpu>=1.15.0",
+    "fastapi>=0.141.1",
+    "langchain>=1.4.0",
+    "langchain-aws>=1.7.5",
+    "langchain-community>=0.4.2",
+    "langchain-huggingface>=1.2.2",
+    "langchain-ollama>=1.1.0",
+    "langchain-text-splitters>=1.1.2",
+    "pypdf>=6.16.2",
+    "python-dotenv>=1.2.3",
+    "sentence-transformers>=6.0.1",
+    "uvicorn>=0.52.4",
+]
